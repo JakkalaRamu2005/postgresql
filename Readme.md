@@ -5,7 +5,7 @@ Database Client--------------------------> Database Servers.
 
 to store the data, you have install it in the laptop to work with postgreSQL.
 
-sqlite: ----------------------------PostgreSQL-
+sqlite: ----------------------------PostgreSQL
 -------                              - big (no primary key in the noSqlitetable like MongoDB)
 sm 
 RDBMS
@@ -27,5 +27,16 @@ references
 e_id  d_id 
 it will check whether emp_id is in the emp table 
 the columns which are dependent on other colums we call them as the foreign keys
+
+Operators:
+
+comparision
+Like 
+distinct 
+Limit 
+Offset 
+
+coalesce - returns first not null value from the group of values 
+
 
 
